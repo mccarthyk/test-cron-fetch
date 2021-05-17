@@ -1,5 +1,5 @@
 {
-  "name": "hc-vite-template",
+  "name": "hc-procurement-meeting-notices",
   "version": "0.0.0",
   "scripts": {
     "dev": "vite",
@@ -8,6 +8,7 @@
     "lint": "eslint --ext .js,.vue src"
   },
   "dependencies": {
+    "axios": "^0.21.1",
     "bootstrap": "^5.0.0-beta3",
     "iframe-resizer": "^4.3.1",
     "vue": "^3.0.5"
