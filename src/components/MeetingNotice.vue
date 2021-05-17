@@ -51,7 +51,7 @@
         <dt class="col-sm-4 col-lg-3">Location</dt>
         <dd class="col-sm-8 col-lg-9">
           {{ meeting.Location }}
-          <small class="fw-bold">
+          <small v-if="meeting.PhysicalLocation" class="fw-bold">
             (for committee members only, no general public admitted)
           </small>
         </dd>
